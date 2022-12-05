@@ -100,3 +100,20 @@
 
 // const myArray = [1,2,3,4,5,6,7,8,9];
 // console.log(input (myArray, 8));   
+
+
+
+
+// practise 
+
+// [1,2,3,4,5,6,7,8]  fInd target index no where target is 4
+
+// function input(anyArray, target){
+//     for (i=0; i<anyArray.length; i++){
+//         if (anyArray[i]==target){
+//             return i;
+//         }
+//     }return 'not present';
+// }
+// const myArray= [1,2,3,4,5,6,7,8];
+// console.log(input(myArray, 9));
