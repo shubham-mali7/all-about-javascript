@@ -35,11 +35,39 @@
 
 //.....................................................
 
-const numbers = [2,4,6,8,9,5]
+// const numbers = [2,4,6,8,9,5]
 
-const func = function(num,a){
-    return (a);
-}
+// const func = function(num,a){
+//     return (a);
+// }
 
-const final =numbers.map(func);
-console.log(final);
+// const final =numbers.map(func);
+// console.log(final);
+
+//...........................................
+
+//  AAKASH SIR EXAMPLES........................
+
+// const a = [-1,0,1,2,3];
+
+// const out = a.map((data)=>{
+// return data*2 ;
+// })
+
+// console.log(out);
+
+
+// out: [-2, 0, 2, 4, 6]
+
+//........................
+
+// const out = a.filter((data)=>{
+//     return data*2 ;
+// })
+
+// console.log(out);
+
+
+// out: [-1, 1, 2, 3]
+
+// All values are truthy unless they are defined as falsy. That is, all values are truthy except false , 0 , -0 , 0n , "" , null , undefined , and NaN .
