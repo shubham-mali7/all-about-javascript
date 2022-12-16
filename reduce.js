@@ -7,14 +7,14 @@
 
 // const sum = numbers.reduce((accumulator, currentValue)=>{
 //     return accumulator + currentValue;
-// })
+// },0)
 
 // console.log(sum);
 // .......................diagram to explain the working ............
 
 // accumulator      currentValue      return
-//     2                  3             5  
-//     5                  4             9    
+//     2                 3             5  
+//     5                  4             9     
 //     9                  5             14
 //     14                 6             20
 //     20                 7             27
@@ -32,6 +32,6 @@ const userCart = [
 
 const total= userCart.reduce((totalPrice, currentProduct)=>{
     return totalPrice + currentProduct.price;
-} , 0)                         //we can use any value also to initialize the accumulator by writing it at the end of the function
+} ,0)                         //we can use any value also to initialize the accumulator by writing it at the end of the function
 
 console.log(total);
