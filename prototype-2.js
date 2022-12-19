@@ -15,7 +15,7 @@
 //   };
 
 function createUser(firstName, lastName, address, age, email) {
-  const user = Object.create(createUser.prototype); //{} gives an empty obj and also access to usermethods obj
+  const user = Object.create(createUser.prototype); //{} gives an empty obj and also access to its properties
   user.firstName = firstName;
   user.lastName = lastName;
   user.addr = address;
