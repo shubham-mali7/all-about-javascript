@@ -1,0 +1,2 @@
+Objects are also called as instance so dont get confused
+Super() refers to the main parent class example animal in class-3 file 
